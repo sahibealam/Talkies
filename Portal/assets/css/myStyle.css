@@ -1,0 +1,173 @@
+﻿.setDisplay, .displayStyle {
+    display: none;
+}
+
+.background{
+    width:100px;
+    height:100px;
+    background-image: url(../images/pattern.jpg);
+    background-repeat:no-repeat;
+}
+
+.modalBackground1 {
+    background-color: Black;
+    filter: alpha(opacity=90);
+    opacity: 0.8;
+}
+
+.modalPopup1 {
+    background-color: #fff;
+    border: 3px solid #ccc;
+    padding: 10px;
+}
+
+
+.GlassPanel {
+    background: #000000;
+    opacity: 0.5;
+    filter: alpha(opacity=70);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 110;
+    cursor: not-allowed;
+}
+
+.modalBackground {
+    background-color: Black;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+}
+
+.modalPopup {
+    background-color: #FFFFFF;
+    width: 300px;
+    border: 3px solid #0DA9D0;
+    padding: 0;
+}
+
+.modalPopup .header {
+    background-color: #2FBDF1;
+    height: 30px;
+    color: White;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.modalPopup .body {
+    min-height: 50px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.typingmodehindi {
+    font-family: 'Kruti Dev 011' !important;
+    font-size: 20px !important;
+}
+/*.ParentAccordionContent {
+    border-color: -moz-use-text-color #5078B3;
+    border-right: 1px dashed #2F4F4F;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    padding: 10px 5px 5px;
+    width: 50%;
+    text-align: center;
+    background-color: #c1e2f5;
+}
+
+.ParentAccordionHeader {
+    cursor: pointer;
+    font-family: Arial,Sans-Serif;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #2F4F4F;
+    width: 50%;
+    background: url(images/img-collapse.png) no-repeat 750px 7px;
+    background-color: #425e89;
+    color: white;
+    text-align: left;
+}
+
+.ParentAccordionHeaderSelected {
+    color: white;
+    cursor: pointer;
+    font-family: Arial,Sans-Serif;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #2F4F4F;
+    width: 50%;
+    background: url(images/img-expand.png) no-repeat 750px 7px;
+    background-color: #2fa4e7;
+    text-align: center;
+}
+
+.ChildAccordionContent {
+    border-color: -moz-use-text-color #72b65a;
+    border-right: 1px dashed #2F4F4F;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    padding: 10px 5px 5px;
+    width: 98%;
+    text-align: left;
+    background-color: #cbebbf;
+}
+
+.ChildAccordionHeader {
+    cursor: pointer;
+    font-family: Arial,Sans-Serif;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #2F4F4F;
+    width: 98%;
+    background: url(images/arrow_down.png) no-repeat 720px 7px;
+    background-color: #3e6331;
+    color: white;
+    text-align: left;
+}
+
+.ChildAccordionHeaderSelected {
+    color: white;
+    cursor: pointer;
+    font-family: Arial,Sans-Serif;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #2F4F4F;
+    width: 98%;
+    background: url(images/arrown_up.png) no-repeat 720px 7px;
+    background-color: #6ca359;
+    text-align: center;
+}*/
+
+
+.ratingStar {
+    font-size: 0pt;
+    width: 13px;
+    height: 12px;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.filledRatingStar {
+    background-image: url(Images/FilledStar.png);
+}
+
+.emptyRatingStar {
+    background-image: url(Images/EmptyStar.png);
+}
+
+.savedRatingStar {
+    background-image: url(Images/SavedStar.png);
+}
